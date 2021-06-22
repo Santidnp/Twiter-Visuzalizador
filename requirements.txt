@@ -1,6 +1,5 @@
 twint @ git+https://github.com/twintproject/twint.git@e7c8a0c764f6879188e5c21e25fb6f1f856a7221
 streamlit == 0.79.0
 numpy == 1.19.2
-matplotlib ==
 pandas == 1.2.3
 matplotlib == 3.4.2
