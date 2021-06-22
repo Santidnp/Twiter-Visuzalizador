@@ -10,8 +10,8 @@ import sys
 import os
 import base64
 import matplotlib.pyplot as plt
-os.chdir(r'C:\Users\sngh9\OneDrive\Escritorio\Entornovirtual1')
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#os.chdir(r'C:\Users\sngh9\OneDrive\Escritorio\Entornovirtual1')
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def nube_palabras2(X,idioma = 'spanish',busqueda = None):
       
