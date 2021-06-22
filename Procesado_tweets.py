@@ -5,7 +5,7 @@ import os
 
 
 
-os.chdir(r'C:/Users/sngh9/OneDrive/Escritorio/Maestria Semestre 1/Computación_IA')
+#os.chdir(r'C:/Users/sngh9/OneDrive/Escritorio/Maestria Semestre 1/Computación_IA')
 
 
 def available_columns():
