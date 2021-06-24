@@ -48,9 +48,10 @@ def nube_palabras2(X,idioma = 'spanish',busqueda = None):
   wd=WordCloud(max_font_size=70,
                       margin=0,stopwords=en_stops,mask=transformed_nube_mask,background_color="white")
   wd.generate(''.join(str(palabra) for palabra in X))
+  fig = plt.figure(figsize=(8,8))
   plt.imshow(wd,interpolation = 'bilinear')
   plt.axis("off")
-  plt.show
+  return fig
 
 def get_table_download_link_csv(df):
     #csv = df.to_csv(index=False)
